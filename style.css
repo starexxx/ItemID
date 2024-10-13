@@ -7,6 +7,7 @@ body {
   height: 100vh;
   margin: 0;
   width: 100%;
+  background-color: #121212;
 }
 
 .container {
@@ -131,25 +132,25 @@ body {
 
 
 .space-mono-regular {
-  font-family: "Space Mono", monospace;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .space-mono-regular-italic {
-  font-family: "Space Mono", monospace;
+  font-family:'Montserrat', sans-serif;
   font-weight: 400;
   font-style: italic;
 }
 
 .space-mono-bold {
-  font-family: "Space Mono", monospace;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 .space-mono-bold-italic {
-  font-family: "Space Mono", monospace;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: italic;
 }
@@ -203,7 +204,7 @@ body {
 }
 
 #tele_icon {
-  width: 20px;
+  width: 17px;
   fill: #CFD8DC;
 }
 
