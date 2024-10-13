@@ -20,6 +20,9 @@ body {
 
 .search-input {
   margin-bottom: 10px;
+  background-color: #242424;
+  border: none;
+  outline: none;
 }
 
 .pagination {
