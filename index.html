@@ -33,7 +33,7 @@
   <div id="mainnnnn_bg">
     <div id="dialog_main_bg" class="dialog_main_bg flex flex-col text-white shadow-md bg-clip-border rounded-[14px] w-96">
       <div id="background_dia"></div>
-      <div class="container_dialog relative mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-[#0a0a0a] shadow-blue-gray-500/40">
+      <div class="container_dialog relative mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-[#fff] shadow-blue-gray-500/40">
         <img id="cardimage" alt="No-Preview" />
       </div>
       <div class="p-6">
@@ -52,10 +52,10 @@
         </p>
       </div>
       <div class="p-6 pt-0">
-        <button data-ripple-light="true" onclick="hide_dialog();" class="align-middle select-none font-sans font-bold text-center uppercase  disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-[#423F3E] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button">
+        <button data-ripple-light="true" onclick="hide_dialog();" class="align-middle select-none font-sans font-bold text-center uppercase  disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-[#ffba00] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button">
           Close
         </button>
-        <button id="share_btn" data-ripple-light="true" onclick="setTimeout(Share_tg, 250);" class="align-middle select-none font-sans font-bold text-center uppercase  disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs rounded-lg bg-[#423F3E] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button">
+        <button id="share_btn" data-ripple-light="true" onclick="setTimeout(Share_tg, 250);" class="align-middle select-none font-sans font-bold text-center uppercase  disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs rounded-lg bg-[#ffba00] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button">
           <svg id="tele_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="telegram">
             <path d="M16.114 9.291c.552-.552 1.1-1.84-1.2-.276a395.806 395.806 0 0 1-6.489 4.372 2.7 2.7 0 0 1-2.117.046c-1.38-.414-2.991-.966-2.991-.966s-1.1-.691.783-1.427c0 0 7.961-3.267 10.722-4.418 1.058-.46 4.647-1.932 4.647-1.932s1.657-.645 1.519.92c-.046.644-.414 2.9-.782 5.338-.553 3.451-1.151 7.225-1.151 7.225s-.092 1.058-.874 1.242a3.787 3.787 0 0 1-2.3-.828c-.184-.138-3.451-2.209-4.648-3.221a.872.872 0 0 1 .046-1.473 169.31 169.31 0 0 0 4.835-4.602Z"></path>
           </svg>
@@ -66,7 +66,7 @@
   <div class=" container">
     <div id="input_search_bg" class="w-72">
       <div class="relative w-full min-w-[200px] h-10">
-        <input id="input_d" onchange="onSearchInputChange(this.value)" class="space-mono-regular fixed top-0 left-0 w-full bg-[#242424] text-white outline-none focus:outline-none placeholder:text-[#888] text-sm px-4 py-3 rounded-[15px] z-50" placeholder="Type Anything..." />
+        <input id="input_d" onchange="onSearchInputChange(this.value)" class="space-mono-regular w-full h-full bg-[#1e1e1e] text-white outline-none focus:outline-none placeholder-shown:border border text-sm px-3 py-2.5 rounded-[20px]" placeholder="Type Anything..." />
       </div>
     </div>
     <div class="page" id="webpGallery"></div>
