@@ -39,7 +39,7 @@ body {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 14px;
+  border-radius: 20px;
   background: #423F3E;
 }
 
@@ -65,7 +65,7 @@ body {
 .dialog_main_bg {
   position: fixed;
   visibility: hidden;
-  background: #2B2B2B;
+  background: #121212;
 }
 
 #background_dia {
@@ -210,5 +210,5 @@ body {
 img {
   height: auto;
   width: 100%;
-  border-radius: 14px;
+  border-radius: 20px;
 }
